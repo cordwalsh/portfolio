@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
+
+body {
+  cursor: crosshair;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.page_container {
+  width: 100vw;
+  height: 100vh;
+  // background-image: url("./assets/18.jpg");
+  background-image: url("./assets/four_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+.web_card {
+  position: absolute;
+  top: 25%;
+  right: 31%;
+  height: 300px;
+  width: 500px;
+  background-color: lightgrey;
+  margin: 20px;
+  border: 1px solid white;
+  border-radius: 25px;
+  box-shadow: 4px 4px 8px black;
+  text-shadow: 2px 2px 4px black;
+  color: white;
+  text-align: center;
+  opacity: 0.4;
+  background-image: url("./assets/static.gif");
+  background-position: center;
+  background-size: contain;
+  animation: fadeinnn 6s;
+}
+
+.home_enter {
+  position: absolute;
+  top: 18%;
+  right: 38.5%;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px black;
+  animation: fadein 6s;
+}
+
+.home_enter h3 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.home_enter img:hover {
+  cursor: pointer;
+}
+
+.home_contact {
+  position: absolute;
+  top: 100px;
+  right: 80px;
+  transform: rotate(90deg);
+  color: white;
+  border-top: 1px solid lightcoral;
+  text-shadow: 2px 2px 4px black;
+  animation: fadein 3s;
+}
+
+.home_contact:hover {
+  cursor: pointer;
+  color: lightcoral;
+}
+
+.home_contact a {
+  text-decoration: none;
+  color: white;
+}
+
+.home_contact a:hover {
+  color: lightcoral;
+}
+
+
+.home_header {
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  animation: fadein 3s;
+  border: 1px solid white;
+  background-color: blue;
+  width: 0px;
+  height: 0px;
+}
+
+.home_header > a {
+  text-decoration: none;
+  color: white;
+}
+
+.home_header h1 {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  padding: 10px;
+  width: 300px;
+}
+
+
+.home_header h3 {
+  position: relative;
+  top: 200px;
+  left: 50px;
+  padding: 10px;
+  width: 130px;
+  border-bottom: 1px solid lightcoral;
+}
+
+.home_header h3:hover {
+  cursor: pointer;
+  color: lightcoral;
+}
+
+.home_list {
+  display: block;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  position: absolute;
+  top: 25%;
+  right: 30%;
+  color: white;
+  // text-align: right;
+  animation: text-flicker-in-glow 8s linear 1s both;
+  text-align: center;
+}
+
+@keyframes text-flicker-in-glow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  10.1% {
+    opacity: 1;
+    text-shadow: none;
+  }
+  10.2% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+  }
+  20.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.5% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+}
+
+
+
+.home_list h1 {
+  margin: 0;
+}
+
+
+.navbar_container {
+  width: 100%;
+  background-color: lightcoral;
+  height: 70px;
+  color: white;
+  display: flex;
+}
+
+.navbar {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar h3 {
+  padding: 24px;
+  display: absolute;
+  top: 50%;
+  right: 50%;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.navbar h3:hover {
+  cursor: pointer;
+  background-color: #cb4154;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes fadeinnn {
+    from { opacity: 0; }
+    to   { opacity: 0.4; }
+}
+
+.apparel_list {
+  display: block;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  color: white;
+  text-align: right;
+}
+
+.apparel_list h1 {
+  padding: 0;
+  margin: 0;
+  animation: fadein 4s;
+}
+
+.apparel_list h1:hover {
+  color: lightcoral;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px black;
+}
+
+.apparel_list a {
+  text-decoration: none;
+  color: white;
+}
+
+.collection_container {
+  width: 100vw;
+  height: 100vh;
+  // background-image: url("./assets/cherry.jpg");
+  background-image: url("./assets/city_bw.jpg");
+  background-size: cover;
+  overflow: scroll;
+}
+
+.collection_title_myung {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  background-color: lightcoral;
+  justify-content: center;
+  padding: 20px;
+  animation-name: slideLeft;
+  animation-duration: 2s;
+  box-shadow: 2px 2px 8px black;
+}
+
+.collection_title_myung h1 {
+  margin: 0;
+  text-align: center;
+  z-index: 1000;
+}
+
+.collection_title_myung2 {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  background-color: lightcoral;
+  justify-content: center;
+  padding: 20px;
+  animation-name: slideLeft;
+  animation-duration: 2s;
+  box-shadow: 2px 2px 8px black;
+}
+
+.collection_title_myung2 h1 {
+  margin: 0;
+  text-align: center;
+  z-index: 3000;
+}
+
+.collection_title_four {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  background-color: lightcoral;
+  justify-content: center;
+  padding: 20px;
+  animation-name: slideLeft;
+  animation-duration: 2s;
+  box-shadow: 2px 2px 8px black;
+}
+
+@keyframes slideLeft {
+  0%   {right: -150%;}
+  100% {right: 5%;}
+}
+
+.collection_title_four h1 {
+  margin: 0;
+  text-align: center;
+  z-index: 100;
+}
+
+.web_title {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  background-color: lightcoral;
+  justify-content: center;
+  padding: 20px;
+  animation-name: slideLeft;
+  animation-duration: 2s;
+  box-shadow: 2px 2px 8px black;
+}
+
+.web_title h1 {
+  margin: 0;
+  text-align: center;
+  z-index: 100;
+}
+
+.about_container {
+  width: 100vw;
+  height: 100vh;
+  // background-image: url("./assets/mountain.jpg");
+  background-image: url("./assets/bw_mountain.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.about_picture img {
+  position: absolute;
+  top: 25%;
+  right: 60%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  // filter: grayscale(50%);
+}
+
+.about_info {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  width: 700px;
+  color: black;
+  // color: white;
+}
+
+.about_info_head > h1 {
+  position: relative;
+  top: -30px;
+  right: 5%;
+  color: lightcoral;
+  font-size: 120px;
+  font-family: 'Bebas Neue', cursive;
+  margin: 0px;
+  animation-name: slideIn;
+  animation-duration: 2s;
+  overflow: hidden;
+  text-shadow: 2px 2px 4px black;
+}
+
+@keyframes slideIn {
+  0%   {right: -150%;}
+  100% {right: 5%;}
+}
+
+.about_info_content {
+  // background-color: lightgrey;
+  // padding: 30px;
+  position: absolute;
+  top: 80%;
+  border-radius: 25px;
+  font-size: 18px;
+  // text-shadow: 2px 2px 4px black;
+  animation: fadein 3s;
+}
+
+.about_info_content a {
+  position: relative;
+  right: 5%;
+  text-decoration: none;
+  color: lightcoral;
+  text-shadow: none;
+  font-size: 25px;
+}
+
+.about_info_content a:hover {
+  color: lightcoral;
+  text-shadow: 1px 1px 2px black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  justify-content: center;
+  margin-top: 80px;
+  height: 80vh;
+  overflow: scroll;
+}
+
+.column {
+  flex: 60%;
+  max-width: 60%;
+  padding: 0 10px;
+}
+
+.column img {
+  margin-bottom: 8px;
+  vertical-align: middle;
+  width: 100%;
+  box-shadow: 2px 2px 4px black;
+  border: 1px solid white;
+}
+
+.column img:hover {
+  border: 1px solid lightcoral;
+}
+
+.column a {
+  // position: relative;
+  // bottom: 300px;
+  // color: white;
+  // font-size: 30px;
+}
+
+.column a:hover {
+  color: blue;
+}
+
+.web_description p {
+  position: relative;
+  bottom: 200px;
+  color: white;
+  font-size: 20px;
+  // background-color: white;
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+.contact_container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./assets/bw_mountain.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.resume {
+  position: absolute;
+  top: 120px;
+  right: 35%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 70px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  width: 400px;
+  animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.resume a {
+  text-decoration: none;
+}
+
+.resume h1 {
+  margin: 0;
+  color: lightcoral;
+}
+
+.resume h1:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.resume img {
+  position: relative;
+  left: 150px;
+  width: 50px;
+}
+
+.resume p {
+  position: relative;
+  right: 90px;
+  top: 10px;
+}
