@@ -619,3 +619,51 @@ body {
   right: 90px;
   top: 10px;
 }
+
+@media screen and (min-width: 2559px) {
+  .home_list {
+    right: 31%;
+    font-size: 140px;
+  }
+  .about_picture img {
+    width: 400px;
+    height: 400px;
+  }
+  .about_info_head > h1 {
+    font-size: 140px;
+  }
+  .about_info {
+    width: 800px;
+    top: 25%;
+    right: 21%;
+  }
+  .web_title {
+    font-size: 50px;
+    top: 15%;
+  }
+  .collection_title_four {
+    font-size: 50px;
+    top: 15%;
+  }
+  .collection_title_myung {
+    font-size: 50px;
+    top: 15%;
+  }
+  .collection_title_myung2 {
+    font-size: 50px;
+    top: 15%;
+  }
+  .apparel_list {
+    font-size: 140px;
+    top: 21%;
+  }
+  .resume {
+    font-size: 120px;
+    right: 46%;
+    top: 190px;
+  }
+  .resume p {
+    top: -30px;
+    right: 160px;
+  }
+}
