@@ -1,8 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import house from '../assets/house.jpeg'
-import chevron_left from '../assets/chevron_left.png'
-import chevron_right from '../assets/chevron_right.png'
 import About from './About';
 import Apparel from './Apparel';
 import Web from './Web';

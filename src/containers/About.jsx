@@ -4,7 +4,6 @@ import Apparel from './Apparel';
 import Web from './Web';
 import Home from './Home';
 import head from '../assets/head.jpeg';
-import me from '../assets/me.jpg';
 import Contact from './Contact'
 
 const About = () => (

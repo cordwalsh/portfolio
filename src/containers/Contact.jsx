@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import About from './About';
 import Apparel from './Apparel';
 import Web from './Web';
-import linkedin from '../assets/linkedin.png';
+
 
 
 
