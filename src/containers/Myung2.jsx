@@ -9,7 +9,6 @@ import cardigan_16 from '../assets/cardigan_16.jpg';
 import cardigan_21 from '../assets/cardigan_21.jpg';
 import cardigan_31 from '../assets/cardigan_31.jpg';
 import cardigan_33 from '../assets/cardigan_33.jpg';
-import cardigan_34 from '../assets/cardigan_34.jpg';
 import black_5 from '../assets/black_5.jpg';
 import black_8 from '../assets/black_8.jpg';
 import black_14 from '../assets/black_14.jpg';
